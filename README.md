@@ -38,21 +38,15 @@ Running large language models (LLMs) like LLaMA2/3 often requires massive GPU me
 
 ## 📊 Evaluation Results (Wikitext2 PPL)
 
-| Model            | PPL   |
-|------------------|-------|
-| LLaMA2 7B        | 5.468 |
-| LLaMA2 7B Chat   | 6.94  |
-| LLaMA2 13B       | 4.88  |
-| LLaMA2 70B       | 3.32  |
-| LLaMA3 8B        | 6.16  |
-| LLaMA3 70B       | 2.86  |
+| Model            | PPL  |
+|------------------|------|
+| LLaMA2 7B        | 5.47 |
+| LLaMA2 7B Chat   | 6.94 |
+| LLaMA2 13B       | 4.88 |
+| LLaMA2 70B       | 3.32 |
+| LLaMA3 8B        | 6.16 |
+| LLaMA3 70B       | 2.86 |
 
 ---
 
-## 🧩 Use Cases
-
-- Run LLaMA models on GPUs with **< 24GB memory**
-- **Develop and test inference-time optimizations**
-- Benchmark **PPL efficiently on Wikitext2**
-- Ideal for research, experimentation, and educational purposes
 

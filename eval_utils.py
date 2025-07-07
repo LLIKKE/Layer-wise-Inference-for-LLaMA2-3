@@ -109,4 +109,5 @@ def evaluator(model, testenc, dev, args):
     nlls_tensor = torch.cat(nlls)
 
     ppl = torch.exp(nlls_tensor.mean())
-    model.config.use_cache = use_cache    return ppl.item()
+    model.config.use_cache = use_cache
+    return ppl.item()
